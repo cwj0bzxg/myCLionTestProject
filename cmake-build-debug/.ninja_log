@@ -1,0 +1,5 @@
+# ninja log v5
+2	528	7086685279812234	CMakeFiles/clion-test.dir/main.cpp.obj	a7c1c968309cd841
+3741	6000	7086999089116941	clion-test.exe	cb182c73a69248fe
+1	194	7087685242494187	build.ninja	1cd14157c27b230
+2	3741	7086999066527563	CMakeFiles/clion-test.dir/C++11-test.cpp.obj	5043b73a25652e71
