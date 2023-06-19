@@ -55,6 +55,12 @@ build CMakeFiles/clion-test.dir/C++11-test.cpp.obj: CXX_COMPILER__clion-test_Deb
   OBJECT_DIR = CMakeFiles\clion-test.dir
   OBJECT_FILE_DIR = CMakeFiles\clion-test.dir
 
+build CMakeFiles/clion-test.dir/myVector.cpp.obj: CXX_COMPILER__clion-test_Debug D$:/C++Workspace/cliontest/myVector.cpp || cmake_object_order_depends_target_clion-test
+  DEP_FILE = CMakeFiles\clion-test.dir\myVector.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++17
+  OBJECT_DIR = CMakeFiles\clion-test.dir
+  OBJECT_FILE_DIR = CMakeFiles\clion-test.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target clion-test
@@ -63,7 +69,7 @@ build CMakeFiles/clion-test.dir/C++11-test.cpp.obj: CXX_COMPILER__clion-test_Deb
 #############################################
 # Link the executable clion-test.exe
 
-build clion-test.exe: CXX_EXECUTABLE_LINKER__clion-test_Debug CMakeFiles/clion-test.dir/C++11-test.cpp.obj
+build clion-test.exe: CXX_EXECUTABLE_LINKER__clion-test_Debug CMakeFiles/clion-test.dir/C++11-test.cpp.obj CMakeFiles/clion-test.dir/myVector.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\clion-test.dir
