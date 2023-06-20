@@ -147,5 +147,8 @@ int main() {
     auto end = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
     std::cout<< "duration: " << duration << "ms" << std::endl; // "duration: 1000ms
+
+    std::cout << "hello world" << std::endl;
+
     return 0;
 }
